@@ -1,0 +1,55 @@
+.Employee-Container{
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+
+}
+label{
+    display: flex;
+    flex-direction: column;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: 400;
+    }
+button{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    height: 20px;
+    width: 100px;
+    background-color: rgb(117, 131, 127);
+}
+button:hover{
+    background-color: brown;
+}
+form{
+    align-items: center;
+}
+input{
+    width:auto;
+    height: 20px;
+    border-radius: 5px;
+}
+input:hover{
+    transform: scale(1.2);
+      border-color: blanchedalmond;
+}
+.Employee-Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./background.jpg");
+ height: 500px;
+ width: 400px;
+ box-shadow: inset -3px -3px rgb(23, 23, 23);
+border-radius: 10px;
+ /* background-color:rgb(127, 154, 177); */
+
+ /* background-color: antiquewhite; */
+}
