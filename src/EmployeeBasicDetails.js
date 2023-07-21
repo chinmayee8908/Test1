@@ -20,6 +20,7 @@ const EmployeeBasicDetails = () => {
         setInputData((prevData) => ({
           ...prevData,
           [name]: value,
+              // console.log(setInputData)
         }));
       };
     
